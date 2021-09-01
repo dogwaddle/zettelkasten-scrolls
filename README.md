@@ -1,7 +1,7 @@
 # zettelkasten-scrolls
 An Obsidian Software Light Theme
 
-![/screenshot.png]
+![light theme](./screenshot.png)
 
 This is a specialized minimal theme I created for developing a zettelkasten within Obsidian. It is designed to have all of the panels on the left hand side. In addition to that, there is no CSS created for the file explorer because I intended to only do file navigation through the search menu. 
 
