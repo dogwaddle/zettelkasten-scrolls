@@ -1,4 +1,4 @@
-# zettelkasten-scrolls
+# Zettelkasten Scrolls
 An Obsidian Software Light Theme
 
 ![light theme](./screenshot.png)
