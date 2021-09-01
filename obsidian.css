@@ -1,0 +1,264 @@
+
+.theme-light {
+    --background-primary: #ffffff;
+    --background-primary-alt: #f5f6f8;
+    --background-secondary: #ededec;
+    --background-secondary-alt: #d4d4d4;
+    --background-modifier-border: #ddd;
+    --background-modifier-form-field: #fff;
+    --background-modifier-form-field-highlighted: #fff;
+    --background-modifier-box-shadow: rgba(0, 0, 0, 0.1);
+    --background-modifier-success: #A4E7C3;
+    --background-modifier-error: #990000;
+    --background-modifier-error-rgb: 230, 135, 135;
+    --background-modifier-error-hover: #bb0000;
+    --background-modifier-cover: rgba(0, 0, 0, 0.8);
+    --text-accent: #705dcf;
+    --text-accent-hover: #7a6ae6;
+    --text-normal: #414141;
+    --text-muted: #888888;
+    --text-muted-rgb: 136, 136, 136;
+    --text-faint: #999999;
+    --text-error: #800000;
+    --text-error-hover: #990000;
+    --text-highlight-bg: rgba(255, 255, 0, 0.4);
+    --text-highlight-bg-active: rgba(255, 128, 0, 0.4);
+    --text-selection: rgba(204, 230, 255, 0.99);
+    --text-on-accent: #f2f2f2;
+    --interactive-normal: #f2f3f5;
+    --interactive-hover: #e9e9e9;
+    --interactive-accent: #7b6cd9;
+    --interactive-accent-rgb: 123, 108, 217;
+    --interactive-accent-hover: #8273e6;
+    --interactive-success: #197300;
+    --scrollbar-active-thumb-bg: rgba(0, 0, 0, 0.2);
+    --scrollbar-bg: rgba(0, 0, 0, 0.05);
+    --scrollbar-thumb-bg: rgba(0, 0, 0, 0.1);
+    --highlight-mix-blend-mode: darken;
+}
+
+h5, h4, h3, h2, h1, .cm-header {
+  color: #a23227 !important;
+  font-size:  var(--editor-font-size) !important;
+  font-family: "Hack";
+  font-weight: bold !important;
+}
+
+
+
+.workspace-leaf.mod-active .view-header-title {
+  font-size:  var(--editor-font-size) !important;
+  font-weight: normal;
+  background-color:
+}
+
+.titlebar, .titlebar-inner {
+  background-color: #ececec;
+  color: black;
+}
+
+.titlebar{
+    border-bottom: 3px solid #d4d4d4;
+}
+
+.side-dock-ribbon {
+  color: white !important;
+  width: 100px !important;
+  background-color: #2c65a0 !important;
+}
+
+.side-dock-ribbon {
+    flex: 0 0 50px !important;
+    display: flex;
+    flex-direction: column;
+}
+
+.side-dock-ribbon-action {
+    padding: 10px 0;
+}
+
+.workspace-ribbon-collapse-btn, .side-dock-ribbon-action {
+    color: white;
+    text-align: center;
+    stroke-width: 3px;
+}
+
+.markdown-preview-view .internal-link, .cm-s-obsidian span.cm-link, .cm-s-obsidian span.cm-hmd-internal-link {
+    text-decoration: underline;
+    color: #4068c4 !important;
+}
+
+.cm-s-obsidian span.cm-formatting-link {
+color: #414141;
+}
+
+.workspace-leaf.mod-active .view-header {
+    background-color: #ececec !important;
+    border-bottom: none;
+}
+
+.view-header {
+    background-color: #d4d4d4 !important;
+}
+
+.view-header-title {
+  font-size:  var(--editor-font-size) !important;
+  font-weight: normal !important;
+  color: #212121 !important;
+}
+
+.view-header-title-container:after {
+    background: none !important;
+}
+
+.markdown-preview-view mark, mark {
+  color: #10161A;
+  background-color: #fff59d !important;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.tree-item-self {
+  font-weight: normal !important;
+    color: #10161A;
+  padding-left: 15px !important;
+}
+
+.tree-item-self:hover {
+  color: white !important;
+  background-color: #2c65a0 !important;
+}
+
+.workspace-tabs {
+    border: 2px green !important; /* cdcccd */
+}
+
+.cm-s-obsidian .HyperMD-footnote span.cm-hmd-footnote, .footnote-backref, a.footnote-link  {
+    color: #16693B !important;
+    font-weight: 500 !important;
+  }
+
+  .cm-s-obsidian span.cm-link {
+      color: #4068c4 !important;
+  }
+
+  .cm-s-obsidian span.cm-footref, .cm-s-obsidian span.cm-blockid {
+  color: #16693B !important;
+}
+
+  a.tag, .cm-s-obsidian span.cm-hashtag {
+    font-weight: normal;
+    font-size:  90% !important;
+    color: #4068c4;
+    font-family: "Hack";
+  }
+
+  ::marker { color: #16693B !important; font-weight: 500;}
+
+  .workspace-ribbon-collapse-btn:hover, .side-dock-ribbon-action:hover {
+    color: #a23227;
+}
+
+.markdown-preview-view.is-readable-line-width .markdown-preview-sizer, .markdown-source-view.is-readable-line-width .CodeMirror  {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.external-link {
+  color: #414141 !important;
+  text-decoration: underline !important;
+  text-decoration-color: #a23227 !important;
+}
+
+.markdown-preview-view blockquote {
+ border-left-color: #2c65a0 !important;
+ margin-inline-start: 0px !important;
+}
+
+blockquote:before {
+  font: 14px/20px Serif;
+  content: "“";
+  font-size: 3em;
+  line-height: 0.1em;
+  vertical-align: -0.4em;
+}
+blockquote p { display: inline; }
+
+.search-result,
+{
+  margin-bottom: 1px;
+  margin-top: 1px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+div.tree-item.search-result:nth-child(odd) {
+  background-color: #fafafa !important; /*fafafa*/
+  padding-top: 4px !important;
+  padding-bottom: 4px !important;
+}
+
+.search-result-container {
+border-top: 2px solid #cdcccd;
+padding-top: 6px !important;
+padding-left: 0px !important;
+}
+
+.workspace-split.mod-vertical > * > .workspace-leaf-resize-handle, .workspace-split.mod-left-split > .workspace-leaf-resize-handle, .workspace-split.mod-right-split > .workspace-leaf-resize-handle {
+    width: 1px !important;
+    background-color: #cdcccd;
+}
+
+.workspace-split.mod-left-split ::-webkit-scrollbar {
+    display: none;
+}
+
+.view-action:hover, .view-action.is-active {
+    color: #a23227;
+}
+
+.nav-action-button:hover
+{
+  color: #a23227;
+}
+
+.search-result {
+    margin-bottom: 4px !important;
+}
+
+.nav-file-title:hover {
+  color: white !important;
+  background-color: #2c65a0 !important;
+}
+
+.nav-file-title {
+color: #10161A;
+}
+
+div.nav-file:nth-child(even) {
+background-color: #fafafa !important;
+}
+
+.tag-pane-tag-count {
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 8px;
+    color: white !important;
+    background-color: #2c65a0 !important;
+}
+
+.tree-item-self:hover > .tree-item-flair-outer > .tag-pane-tag-count {
+  color: #a23227 !important;
+  background-color: #fafafa !important;
+}
+
+/*
+
+
+
+*/
+
+h1::before {content: "# "; color: #a23227; var(--editor-font-size); font-family: "Hack"; font-weight: bold;}
+h2::before {content: "## "; color: #a23227; var(--editor-font-size); font-family: "Hack"; font-weight: bold;}
+h3::before {content: "### "; color: #a23227; var(--editor-font-size); font-family: "Hack"; font-weight: bold;}
